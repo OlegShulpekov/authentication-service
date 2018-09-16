@@ -4,9 +4,9 @@
  * Module dependencies.
  */
 
-var app = require('../app');
-var debug = require('debug')('authentication-service:server');
-var http = require('http');
+const app = require('../src/app');
+const debug = require('debug')('authentication-service:server');
+const http = require('http');
 
 /**
  * Get port from environment and store in Express.
